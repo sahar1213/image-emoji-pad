@@ -42,8 +42,9 @@ Global Slot17 := ImageEmojisFolderPath . "17.png"
 Global Slot18 := ImageEmojisFolderPath . "18.png"
 Global Slot19 := ImageEmojisFolderPath . "19.png"
 
-; hotkeys to write out image emojis (right alt + numpad number, turn on num lock)
+; hotkeys to write out image emojis
 
+; right alt + numpad number, turn on num lock
 >!Numpad0:: PasteImage(Slot0)
 >!Numpad1:: PasteImage(Slot1)
 >!Numpad2:: PasteImage(Slot2)
@@ -55,6 +56,7 @@ Global Slot19 := ImageEmojisFolderPath . "19.png"
 >!Numpad8:: PasteImage(Slot8)
 >!Numpad9:: PasteImage(Slot9)
 
+; right ctrl + numpad number, turn on num lock
 >^Numpad0:: PasteImage(Slot10)
 >^Numpad1:: PasteImage(Slot11)
 >^Numpad2:: PasteImage(Slot12)
