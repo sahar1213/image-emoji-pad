@@ -1,10 +1,10 @@
 ﻿
 
 ; Change this path to wherever you placed your ImageEmojis folder plus a \ at the end
-Global ImageEmojisFolderPath := "D:\Important Storage\Pictures\ImageEmojis\"
+Global ImageEmojisFolderPath := "C:\ImageEmojis\"
 
 ; Change this path to wherever you placed your gdip.ahk script (by default it is placed in the ImageEmojis folder)
-#Include D:\Important Storage\Pictures\ImageEmojis\gdip.ahk
+#Include C:\ImageEmojis\gdip.ahk
 ; an ahk library allowing this script to copy and paste images, allowing it to paste image emojis
 
 
